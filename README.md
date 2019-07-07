@@ -5,4 +5,4 @@ Javascript 401 Data Structures and Algorithms
 
 ### Data Structures
 Singly Linked List
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/2)
