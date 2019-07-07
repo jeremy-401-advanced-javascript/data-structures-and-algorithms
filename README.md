@@ -5,3 +5,4 @@ Javascript 401 Data Structures and Algorithms
 
 ### Data Structures
 Singly Linked List
+* [submission PR](http://xyz.com)
