@@ -64,19 +64,60 @@ class LinkedList {
     }
     return console.log(output);
   }
+
+  insertAfter(value, newValue){
+
+    let current = this.head;
+    let newNode = new Node(newValue);
+    
+    while(current.next) {
+      if(current.value === value) {
+        let saveNode = current.next;
+        current.next = newNode;
+        newNode.next = saveNode;
+        return;
+      }
+      current = current.next;
+    }
+  }
   
+  fromEnd(k){
+    let current = this.head;
+    let count = 0;
+    while(current !== null){
+      current = current.next;
+      count++;
+    }
+    current = this.head;
+    let nodeCompare = 0;
+    while(current !== null){
+      let target = count - k;
+      nodeCompare++;
+      if(target === nodeCompare){
+
+        return current.value;
+      }
+      current = current.next;
+    }
+  }
 
 }
-
 let list = new LinkedList();
-list.append('my ');
-list.append('name ');
-list.append('is ');
-list.append('Kyran!!!!');
-list.insert('Hello, ');
+list.append(1);
+list.append(2);
+list.append(3);
+list.append(4);
+// list.insert('Hello, ');
+// console.log(list);
 
-list.includes('Kyran!!!!');
-list.toString();
+// list.includes('Kyran!!!!');
+// list.toString();
+list.insertAfter(3, 9);
+
+console.log(list.fromEnd(3));
+// console.log(list);
 // list.add(2);
 // list.add(2);
 console.log(util.inspect(list,{depth:10}));
+
+module.exports = { LinkedList, Node };
