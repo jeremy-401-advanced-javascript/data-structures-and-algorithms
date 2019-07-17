@@ -16,6 +16,8 @@ Javascript 401 Data Structures and Algorithms
 <img src="./assets/images/lindedlistKend.jpg" width="100">
 
 
-[Merge Linked-List]
+[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+
+
 
 
