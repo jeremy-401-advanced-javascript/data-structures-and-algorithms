@@ -10,7 +10,7 @@ Javascript 401 Data Structures and Algorithms
 <img src="./assets/images/code-challenge-6.2.jpg" width="100">
 <img src="./assets/images/code-challenge-6.jpg" width="100">
 
-[K from the End]()
+[K from the End](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/5)
 
 
 <img src="./assets/images/lindedlistKend.jpg" width="100">
