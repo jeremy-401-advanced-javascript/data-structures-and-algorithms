@@ -121,11 +121,41 @@ class LinkedList {
     }
   }
 
+
+  mergeLinkedLists(L1, L2) {
+    let currentL1 = L1.head;
+    let currentL2 = L2.head;
+
+    let newList = new LinkedList();
+
+    while(currentL1 || currentL2) {
+      if (currentL1) {
+        newList.append(currentL1);
+        currentL1 = currentL1.next;
+      }
+      if(currentL2) {
+        newList.append(currentL2);
+        currentL2 = currentL2.next;
+      }
+    }
+   return newList.head;
+  }
 }
+
 let list = new LinkedList();
-console.log(list.append(1));
-console.log(list.append(2));
-console.log(list.append(3));
+
+let list1 = new LinkedList();
+console.log(list1.append(1));
+console.log(list1.append(3));
+// console.log(list1.append(15));
+
+
+let list2 = new LinkedList();
+console.log(list2.append(2));
+console.log(list2.append(30));
+// console.log(list2.append(5));
+
+
 
 // list.insert('Hello, ');
 // console.log(list);
@@ -133,13 +163,22 @@ console.log(list.append(3));
 // list.includes('Kyran!!!!');
 // list.toString();
 
-console.log(list.insertBefore(1, 10));
-console.log(list.insertAfter(2, 9));
+// console.log(list1.insertBefore(1, 10));
+// console.log(list1.insertAfter(2, 9));
 
-console.log(list.fromEnd(3));
+
+
+
+
+
+
+
+console.log(list.mergeLinkedLists(list1, list2));
+
+// console.log(list.fromEnd(3));
 // console.log(list);
 // list.add(2);
 // list.add(2);
-console.log(util.inspect(list,{depth:10}));
+// console.log(util.inspect(list,{depth:10}));
 
 module.exports = { LinkedList, Node };
