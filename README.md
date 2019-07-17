@@ -46,7 +46,11 @@ Merge two Linked list
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/7)
+
+
+<img src="./assets/images/MergeList.jpg" width="100">
+
 
 
 
