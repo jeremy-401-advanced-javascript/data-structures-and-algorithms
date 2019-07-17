@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms#readme",
   "devDependencies": {
     "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "util": "^0.12.1"
   }
 }
