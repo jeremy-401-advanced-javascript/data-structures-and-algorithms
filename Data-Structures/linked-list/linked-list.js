@@ -65,6 +65,26 @@ class LinkedList {
     return console.log(output);
   }
 
+  insertBefore(value, newValue){// (14, 'I go before you')
+    if(!this.head){
+      this.head = new Node(newValue);
+      return;
+    }
+    if(value === this.head.value){
+      this.insert(newValue);
+      return;
+    }
+    let current = this.head;
+
+    while(current.next.value !== value){
+      current = current.next;
+    }
+    let node = new Node(newValue);
+    node.next = current.next;
+    current.next = node;
+  }
+
+
   insertAfter(value, newValue){
 
     let current = this.head;
@@ -103,16 +123,18 @@ class LinkedList {
 
 }
 let list = new LinkedList();
-list.append(1);
-list.append(2);
-list.append(3);
-list.append(4);
+console.log(list.append(1));
+console.log(list.append(2));
+console.log(list.append(3));
+
 // list.insert('Hello, ');
 // console.log(list);
 
 // list.includes('Kyran!!!!');
 // list.toString();
-list.insertAfter(3, 9);
+
+console.log(list.insertBefore(1, 10));
+console.log(list.insertAfter(2, 9));
 
 console.log(list.fromEnd(3));
 // console.log(list);
