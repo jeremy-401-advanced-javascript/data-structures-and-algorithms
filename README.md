@@ -60,7 +60,7 @@ Stacks and Queues
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/8)
 
 
 
