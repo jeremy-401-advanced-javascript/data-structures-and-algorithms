@@ -50,4 +50,18 @@ Merge two Linked list
 
 
 
+# Challenge Summary
+Stacks and Queues
+
+## Challenge Description
+<!-- Description of the challenge -->
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+
+
+
 
