@@ -78,7 +78,7 @@ Queue From Stacks
 [Stacks-And-Queues](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/8)
 
 
-<img src="./assets/images/code-challenge-11.jpg" width="100">
+<img src="./assets/images/code-challenge-11.jpeg" width="100">
 
 
 
