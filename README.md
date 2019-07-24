@@ -75,7 +75,7 @@ Queue From Stacks
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-[Stacks-And-Queues](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/8)
+[Stacks-And-Queues](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/9)
 
 
 <img src="./assets/images/code-challenge-11.jpeg" width="100">
