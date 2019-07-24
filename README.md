@@ -51,3 +51,41 @@ Merge two Linked list
 
 
 
+# Challenge Summary
+Stacks and Queues
+
+## Challenge Description
+<!-- Description of the challenge -->
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[Stacks-And-Queues](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/8)
+
+
+
+# Challenge Summary
+Queue From Stacks
+
+## Challenge Description
+<!-- Description of the challenge -->
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[Stacks-And-Queues](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/9)
+
+
+<img src="./assets/images/code-challenge-11.jpeg" width="100">
+
+
+
+
+
+
+
+
+
+
