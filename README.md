@@ -94,7 +94,7 @@ Fifo Animal Shelter
 [Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
 
 
-<img src="./assets/images/fifo_animal_shelter_uml.jpg" width="100">
+<img src="./assets/images/fifo-animal-shelter-uml.jpg" width="100">
 
 
 
