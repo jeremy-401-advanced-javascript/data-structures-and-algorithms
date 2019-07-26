@@ -81,6 +81,22 @@ Queue From Stacks
 <img src="./assets/images/code-challenge-11.jpeg" width="100">
 
 
+# Challenge Summary
+Fifo Animal Shelter
+
+## Challenge Description
+<!-- Description of the challenge -->
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+
+
+<img src="./assets/images/fifo_animal_shelter_uml.jpg" width="100">
+
+
 
 
 
