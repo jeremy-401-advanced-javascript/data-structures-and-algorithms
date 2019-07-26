@@ -91,7 +91,7 @@ Fifo Animal Shelter
 <!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
 
 ## Solution
-[Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+[Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/12)
 
 
 <img src="./assets/images/fifo-animal-shelter-uml.jpg" width="100">
