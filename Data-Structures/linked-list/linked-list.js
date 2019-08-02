@@ -1,5 +1,6 @@
 const util = require('util');
 
+
 class Node {
   constructor(value) {
     this.value = value;
@@ -34,7 +35,6 @@ class LinkedList {
   insert(value) {
     let node = new Node(value);
     node.next = this.head;
-
     this.head = node;
     return this.head;
   }
@@ -44,63 +44,26 @@ class LinkedList {
 
     while(current) {
       if (current.value === value) {
-        console.log(true);
-      } else {
-        console.log(false);
-      }
+        return true;
+      } 
 
-      current = current.next;
+    current = current.next
+
     }
-    return null;
+    return false;
   }
 
   toString() {
     let current = this.head;
     let output = '';
-
+    
     while(current !== null) {
       output += current.value;
       current = current.next;
     }
-    return console.log(output);
+    return output;
   }
 
-  insertBefore(value, newValue){// (14, 'I go before you')
-    if(!this.head){
-      this.head = new Node(newValue);
-      return;
-    }
-    if(value === this.head.value){
-      this.insert(newValue);
-      return;
-    }
-    let current = this.head;
-
-    while(current.next.value !== value){
-      current = current.next;
-    }
-    let node = new Node(newValue);
-    node.next = current.next;
-    current.next = node;
-  }
-
-
-  insertAfter(value, newValue){
-
-    let current = this.head;
-    let newNode = new Node(newValue);
-    
-    while(current.next) {
-      if(current.value === value) {
-        let saveNode = current.next;
-        current.next = newNode;
-        newNode.next = saveNode;
-        return;
-      }
-      current = current.next;
-    }
-  }
-  
   fromEnd(k){
     let current = this.head;
     let count = 0;
@@ -114,71 +77,77 @@ class LinkedList {
       let target = count - k;
       nodeCompare++;
       if(target === nodeCompare){
-
+  
         return current.value;
       }
       current = current.next;
     }
   }
+  
+  
+  insertBefore(value, newValue){// (14, 'I go before you')
+  if(!this.head){
+    this.head = new Node(newValue);
+    return;
+  }
 
+    let current = this.head;
 
-  mergeLinkedLists(L1, L2) {
-    let currentL1 = L1.head;
-    let currentL2 = L2.head;
-
-    let newList = new LinkedList();
-
-    while(currentL1 || currentL2) {
-      if (currentL1) {
-        newList.append(currentL1);
-        currentL1 = currentL1.next;
+    let node = new Node(newValue);
+    node.next = current.next;
+    current.next = node;
+  }
+  
+  
+  insertAfter(value, newValue){
+    
+    let current = this.head;
+    let newNode = new Node(newValue);
+    
+    while(current.next) {
+      if(current.value === value) {
+        let saveNode = current.next;
+        current.next = newNode;
+        newNode.next = saveNode;
+        return;
       }
-      if(currentL2) {
-        newList.append(currentL2);
-        currentL2 = currentL2.next;
-      }
+      current = current.next;
     }
-   return newList.head;
   }
 }
 
+function mergeLinkedLists(l1, l2){
+
+  let current1 = l1.head;
+  let current2 = l2.head;
+  let mergeList = new LinkedList();
+
+  while(current1 || current2){
+    if(current1){
+      mergeList.append(current1.value);
+      current1 = current1.next;
+    }
+
+    if(current2){
+      mergeList.append(current2.value);
+      current2 = current2.next;
+    }
+  }
+  return mergeList.head;
+}
+
+
 let list = new LinkedList();
+list.append('my ');
+list.append('name ');
+list.append('is ');
+list.append('Kyran!!!!');
+list.insert('Hello, ');
 
-let list1 = new LinkedList();
-console.log(list1.append(1));
-console.log(list1.append(3));
-// console.log(list1.append(15));
-
-
-let list2 = new LinkedList();
-console.log(list2.append(2));
-console.log(list2.append(30));
-// console.log(list2.append(5));
-
-
-
-// list.insert('Hello, ');
-// console.log(list);
-
-// list.includes('Kyran!!!!');
-// list.toString();
-
-// console.log(list1.insertBefore(1, 10));
-// console.log(list1.insertAfter(2, 9));
-
-
-
-
-
-
-
-
-console.log(list.mergeLinkedLists(list1, list2));
-
-// console.log(list.fromEnd(3));
-// console.log(list);
+list.includes('Kyran!!!!');
+list.toString();
 // list.add(2);
 // list.add(2);
-// console.log(util.inspect(list,{depth:10}));
+console.log(util.inspect(list,{depth:10}));
 
-module.exports = { LinkedList, Node };
+module.exports = {LinkedList, mergeLinkedLists};

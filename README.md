@@ -6,13 +6,13 @@ Javascript 401 Data Structures and Algorithms
 # Data Structures
 
 # Challenge Summary
-Instantiate Linked List
+Instantiate a Linked List.
 
 ## Challenge Description
-<!-- Description of the challenge -->
+Create and Instantiate a Linked List with values with using methods such as append insert. In addition to that ensure that values exist using method such as includes. Convert values to a string using toSting method. 
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Traversal of Linked list using while loop is O(N). The assignment operators are O(1).
 
 ## Solution
 [Singly Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/4)
@@ -22,13 +22,13 @@ Instantiate Linked List
 <img src="./assets/images/code-challenge-6.jpg" width="100">
 
 # Challenge Summary
-Number From End
+Creat a method that returns a value traversing from the end of linked list.
 
 ## Challenge Description
-<!-- Description of the challenge -->
+Insert a number into a function it should traverse the linked list and return a value. Starting postion of value should be from the of the linked list counting back towards the beginning. If number exceeds the length of the linked list return undefined.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Traversal of Linked list using while loop is O(N). The assignment operators are O(1).
 
 ## Solution
 [Linked-List From End](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
@@ -40,15 +40,15 @@ Number From End
 Merge two Linked list
 
 ## Challenge Description
-<!-- Description of the challenge -->
+Merging to Linked List together, instantiating one Linked List from the the both Linked list.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
 
 ## Solution
 [Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
 
-
+<img src="./assets/images/MergeList.jpg" width="100">
 
 
 # Challenge Summary
