@@ -15,7 +15,7 @@ Create and Instantiate a Linked List with values with using methods such as appe
 Traversal of Linked list using while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[Singly Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/4)
+[Singly Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/13)
 
 
 <img src="./assets/images/code-challenge-6.2.jpg" width="100">
@@ -31,7 +31,7 @@ Insert a number into a function it should traverse the linked list and return a 
 Traversal of Linked list using while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[Linked-List From End](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+[Linked-List From End](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/13)
 
 <img src="./assets/images/lindedlistKend.jpg" width="100">
 
@@ -46,7 +46,7 @@ Merging to Linked List together, instantiating one Linked List from the the both
 Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/6)
+[Merge Linked-List](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/13)
 
 <img src="./assets/images/MergeList.jpg" width="100">
 
