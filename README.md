@@ -97,9 +97,20 @@ Fifo Animal Shelter
 <img src="./assets/images/fifo-animal-shelter-uml.jpg" width="100">
 
 
+# Challenge Summary
+Binary Search Tree
+
+## Challenge Description
+Create a binary searct tree.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
 
 
-
+<img src="./assets/images/fifo-animal-shelter-uml.jpg" width="100">
 
 
 
