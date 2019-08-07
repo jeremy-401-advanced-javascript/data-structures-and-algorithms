@@ -102,7 +102,7 @@ tree.insert(3);
 tree.insert(8);
 tree.insert(20);
 
-
+//for submission
 console.log(tree.fizzBuzz(tree));
 
 // console.log('This is the tree 😍', tree);
