@@ -113,7 +113,7 @@ Make a method that traverses a tree and returns an evaluation. If the number is 
 Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[fizzBuzz](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+[fizzBuzz](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/16)
 
 
 <img src="./assets/images/treeFizzBuzz.jpeg" width="100">
