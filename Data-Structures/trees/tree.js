@@ -22,59 +22,90 @@ class BinarySearchTree{
     
   }
 
-  insert(value) {
-
+  insert(value){
     var newNode = new Node(value);
-    if(this.root === null) {
-      this.root = newNode;
-      return this;
-    } else {
-      let current = this.root;
-      while(true) {
+    if(this.root === null){
+        this.root = newNode;
+        return this;
+    }
+    var current = this.root;
+    while(true){
         if(value === current.value) return undefined;
-
-        if(value < current.value) {
-          if(current.left === null) {
-            current.left = newNode;
-            return this;
-          } else {
+        if(value < current.value){
+            if(current.left === null){
+                current.left = newNode;
+                return this;
+            }
             current = current.left;
-          } 
-        } else if(value > current.value) {
-          if (current.right === null) {
-            current.right = newNode;
-            return this;
-          } else {
+        } else {
+            if(current.right === null){
+                current.right = newNode;
+                return this;
+            } 
             current = current.right;
-          }
         }
-      }
+        if(value === current.value) return undefined;
+        if(value > current.value){
+            if(current.right === null){
+                current.right = newNode;
+                return this;
+            }
+            current = current.right;
+        } else {
+            if(current.left === null){
+                current.left = newNode;
+                return this;
+            } 
+            current = current.left;
+        }
     }
   }
 
-  preOrder() {
-    
-    let current  = this.root;
+  preOrder(){
+    // var data = [];
     let list = new pseudoQueue();
-    function traverse(node) {
+    function traverse(node){
+      list.enqueue(node.value)
       if(node.left) traverse(node.left);
       if(node.right) traverse(node.right);
-      list.enqueue(node.value);
+      // data.push(node.value);
     }
-    traverse(current);
+    traverse(this.root);
     return list;
+  }
+
+  fizzBuzz(tree){
+    function traverse(node){
+      if(node.value % 5 === 0 && node.value % 3 === 0) {
+        node.value = 'fizzbuzz';
+      } else if(node.value % 5 === 0) {
+        node.value = 'buzz';
+      } else if(node.value % 3 === 0) {
+        node.value = 'fizz';
+      } else {
+        node.value = node.value;
+      }
+      if(node.left) traverse(node.left);
+      if(node.right) traverse(node.right);
+    }
+     traverse(tree.root);
+     return tree;
   }
 }
 
 
 var tree = new BinarySearchTree();
-tree.insert(10);
-tree.insert(5);
+tree.insert(8);
 tree.insert(6);
-tree.insert(2);
-tree.insert(11);
+tree.insert(15);
+tree.insert(3);
+tree.insert(8);
+tree.insert(20);
 
-console.log('This is the tree 😍', tree);
+
+console.log(tree.fizzBuzz(tree));
+
+// console.log('This is the tree 😍', tree);
 console.log('This is the PreOrder list 😎', tree.preOrder());
 
 
