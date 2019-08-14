@@ -119,6 +119,17 @@ Traversal of both linked list using a while loop is O(N). The assignment operato
 <img src="./assets/images/treeFizzBuzz.jpeg" width="100">
 
 
+## Approach & Efficiency
+
+Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
+
+## Solution
+[maxiumTreeValue](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+
+
+<img src="./assets/images/maximumTreeValue.jpeg" width="100">
+
+
 
 
 

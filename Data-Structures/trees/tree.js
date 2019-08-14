@@ -91,6 +91,19 @@ class BinarySearchTree{
      traverse(tree.root);
      return tree;
   }
+
+  findMaximumValue(tree) {
+    let maxValue = 0;
+    function traverse(node) { 
+      if(node.value > maxValue) {
+        maxValue = node.value;
+      }
+      if(node.left) traverse(node.left);
+      if(node.right) traverse(node.right);
+    }
+    traverse(tree.root);
+    return maxValue;
+  }
 }
 
 
@@ -103,10 +116,12 @@ tree.insert(8);
 tree.insert(20);
 
 //for submission
-console.log(tree.fizzBuzz(tree));
+// console.log(tree.fizzBuzz(tree));
+console.log('This is the max value', tree.findMaximumValue(tree));
+
 
 // console.log('This is the tree 😍', tree);
-console.log('This is the PreOrder list 😎', tree.preOrder());
+// console.log('This is the PreOrder list 😎', tree.preOrder());
 
 
 
