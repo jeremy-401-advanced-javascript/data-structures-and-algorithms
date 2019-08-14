@@ -119,6 +119,12 @@ Traversal of both linked list using a while loop is O(N). The assignment operato
 <img src="./assets/images/treeFizzBuzz.jpeg" width="100">
 
 
+# Challenge Summary
+Tree fizzBuzz
+
+## Challenge Description
+Make a method that traverses a tree and compares the node values to determine which value is the greatest value in the node tree.
+
 ## Approach & Efficiency
 
 Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
@@ -128,9 +134,6 @@ Traversal of both linked list using a while loop is O(N). The assignment operato
 
 
 <img src="./assets/images/maximumTreeValue.jpeg" width="100">
-
-
-
 
 
 
