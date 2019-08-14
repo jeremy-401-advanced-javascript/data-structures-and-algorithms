@@ -9,7 +9,12 @@ Javascript 401 Data Structures and Algorithms
 Instantiate a Linked List.
 
 ## Challenge Description
-Create and Instantiate a Linked List with values with using methods such as append insert. In addition to that ensure that values exist using method such as includes. Convert values to a string using toSting method. 
+Create and Instantiate a Linked List with values with using a append method with append values to the end of linked list.
+insert method inserts a value at the beginning of a linked list 
+includes method traverses a linked list and searches for a given value
+toString method converts a values to a string.
+insertBefore method will insert a value before a given node. 
+insertAfter method will insert a value after a given node.
 
 ## Approach & Efficiency
 Traversal of Linked list using while loop is O(N). The assignment operators are O(1).
@@ -98,19 +103,39 @@ Fifo Animal Shelter
 
 
 # Challenge Summary
-Binary Search Tree
+Tree fizzBuzz
 
 ## Challenge Description
-Create a binary searct tree.
+Make a method that traverses a tree and returns an evaluation. If the number is divisible by 3 and 5 return fizzbuzz, else if a value is divisible by 5 return buzz, else if a number is divisible by e return fizz, else return the value as is.
 
 ## Approach & Efficiency
-<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[Fifo Animal Shelter](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+[fizzBuzz](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
 
 
-<img src="./assets/images/fifo-animal-shelter-uml.jpg" width="100">
+<img src="./assets/images/treeFizzBuzz.jpeg" width="100">
+
+
+# Challenge Summary
+Tree fizzBuzz
+
+## Challenge Description
+Make a method that traverses a tree and compares the node values to determine which value is the greatest value in the node tree.
+
+## Approach & Efficiency
+
+Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
+
+## Solution
+[maxiumTreeValue](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+
+
+<img src="./assets/images/maximumTreeValue.jpeg" width="100">
+
+
 
 
 

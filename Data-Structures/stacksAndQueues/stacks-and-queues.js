@@ -42,11 +42,11 @@ class PseudoQueue {
 }
 
 let pseudoQueue = new PseudoQueue();
-pseudoQueue.enqueue(7);
-pseudoQueue.enqueue(12);
-pseudoQueue.enqueue(4);
-pseudoQueue.dequeue();
-console.log(pseudoQueue);
+// pseudoQueue.enqueue(7);
+// pseudoQueue.enqueue(12);
+// pseudoQueue.enqueue(4);
+// // pseudoQueue.dequeue();
+// console.log(pseudoQueue);
 
 
 module.exports = PseudoQueue;
