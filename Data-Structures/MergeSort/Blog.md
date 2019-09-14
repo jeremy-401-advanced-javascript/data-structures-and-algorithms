@@ -18,7 +18,7 @@ Merge Sort is an algorithm that takes in an array and sorts the array based on w
 
 # Diagram
 
-<img src="./assets/images/MergeSort.gif" width="400">
+<img src="./assets/images/MergeList.jpg" width="400">
 
 
 # Algorithm 
