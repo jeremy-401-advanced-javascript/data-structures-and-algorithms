@@ -17,7 +17,7 @@ Merge Sort is an algorithm that takes in an array and sorts the array based on w
 * Merge the smaller lists into new list in sorted order.
 
 # Diagram
-<img src="./assets/images/code-challenge-6.2.jpg" width="100">
+<img src="./assets/images/MergeSort.gif" width="400">
 
 
 # Algorithm 
