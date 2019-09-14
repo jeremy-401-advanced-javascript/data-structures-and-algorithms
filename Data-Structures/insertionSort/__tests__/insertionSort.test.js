@@ -1,6 +1,6 @@
 const insertionSort = require('./../insertionSort.js');
 
-describe('Testing merge sort code', () => {
+describe('Testing insertion sort code', () => {
 
   it('insertionSort should return an assorted array in ascending order',  () => {
     let myArray = [17, 39, 5, 87, 1];
