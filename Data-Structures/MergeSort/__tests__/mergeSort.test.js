@@ -8,12 +8,6 @@ describe('Testing merge sort code', () => {
     let arr2 = [2,4,6];
     expect(mergeTwoArr(arr1,arr2)).toStrictEqual([1,2,3,4,5,6]);
   })
-
-
-
-
-
-
 })
 
 

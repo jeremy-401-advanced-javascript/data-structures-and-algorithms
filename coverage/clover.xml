@@ -1,32 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1568444869429" clover="3.2.0">
-  <project timestamp="1568444869429" name="All files">
-    <metrics statements="23" coveredstatements="16" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="1" elements="31" coveredelements="21" complexity="0" loc="23" ncloc="23" packages="1" files="1" classes="1"/>
-    <file name="mergeSort.js" path="/Users/jeremylee/codefellows/401/data-structures-and-algorithms/Data-Structures/MergeSort/mergeSort.js">
-      <metrics statements="23" coveredstatements="16" conditionals="6" coveredconditionals="4" methods="2" coveredmethods="1"/>
-      <line num="4" count="2" type="stmt"/>
+<coverage generated="1568474067735" clover="3.2.0">
+  <project timestamp="1568474067735" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="11" coveredelements="11" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="insertionSort.js" path="/Users/jeremylee/codefellows/401/data-structures-and-algorithms/Data-Structures/insertionSort/insertionSort.js">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="5" count="2" type="stmt"/>
-      <line num="6" count="2" type="stmt"/>
-      <line num="7" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="8" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="6" type="stmt"/>
-      <line num="10" count="6" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="16" count="2" type="stmt"/>
-      <line num="17" count="0" type="stmt"/>
-      <line num="18" count="0" type="stmt"/>
-      <line num="20" count="2" type="stmt"/>
-      <line num="21" count="3" type="stmt"/>
-      <line num="22" count="3" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
-      <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="29" count="0" type="stmt"/>
-      <line num="30" count="0" type="stmt"/>
-      <line num="31" count="0" type="stmt"/>
-      <line num="32" count="0" type="stmt"/>
-      <line num="35" count="1" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
+      <line num="7" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="9" type="stmt"/>
+      <line num="10" count="8" type="stmt"/>
+      <line num="12" count="2" type="stmt"/>
+      <line num="15" count="1" type="stmt"/>
+      <line num="17" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
