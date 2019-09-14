@@ -1,13 +1,13 @@
-# MereSort 
-Merge Sort JavaScript data structure and algorithm
+# Merge Sort 
+Merge Sort JavaScript Data Structure and Algorithm
 
 ## Algorithm Description
 Merge Sort is an algorithm that takes in an array and sorts the array based on whatever specification you code it sort, i.e. ascending descending etc. We care about merge sort because of the speed in which it sorts. If you are dealing with huge datasets it will drastically decrease the time it takes to sort data without using merge sort.
 
 # Learning Objectives
 
-* The learning objective for this Blog is to help students understanding and program a merge sort from scratch using Javascript.
-* After completion a 301 student will be able to write and understand merge sort and why learning how to create a merge sort is useful.
+* The learning objective for this blog is to help students understanding and program a merge sort from scratch using Javascript.
+* After completion a 301 student will be able to write and understand merge sort and know why learning how to create a merge sort is useful.
 
 
 # Information Flow
