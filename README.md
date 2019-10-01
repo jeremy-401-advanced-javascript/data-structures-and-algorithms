@@ -164,7 +164,7 @@ Without utilizing any of the built-in library methods available to your language
 Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
 
 ## Solution
-[HashTable DSA](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+[Most Common Word](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
 
 
 
