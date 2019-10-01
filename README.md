@@ -136,8 +136,21 @@ Traversal of both linked list using a while loop is O(N). The assignment operato
 <img src="./assets/images/maximumTreeValue.jpeg" width="100">
 
 
+# Hashtables
+Hash Table
+
+## Challenge
+Create a hash table that returns an index value. Create an add method that will add key value pairs the the table. Create a get method the will return a key value pair. Create a contains methods method that returns a boolean indicating a value exist
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## Solution
+[HashTable DSA](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
 
 
+
+<img src="./assets/images/maximumTreeValue.jpeg" width="100">
 
 
 
