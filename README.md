@@ -153,4 +153,22 @@ Create a hash table that returns an index value. Create an add method that will 
 <img src="./assets/images/maximumTreeValue.jpeg" width="100">
 
 
+# Hashtables
+Most Common Word
+
+## Challenge
+Write a function that accepts a lengthy string parameter.
+Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
+
+## Approach & Efficiency
+Traversal of both linked list using a while loop is O(N). The assignment operators are O(1).
+
+## Solution
+[Most Common Word](https://github.com/jeremy-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+
+
+
+<img src="./assets/images/mostCommonWord.jpeg" width="100">
+
+
 
